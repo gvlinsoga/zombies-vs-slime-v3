@@ -1,5 +1,6 @@
 {
     "name": "Zombies Vs slime v3",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*"
