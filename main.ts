@@ -249,7 +249,7 @@ game.onUpdateInterval(5000, function () {
     update += 1000
 })
 game.onUpdateInterval(5000, function () {
-    updatevelocity += 3
+    updatevelocity += 4
 })
 game.onUpdateInterval(12000, function () {
     Vida3 = sprites.create(assets.image`vida2`, SpriteKind.Vida3)
