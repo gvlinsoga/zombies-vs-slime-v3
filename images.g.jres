@@ -4,11 +4,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Carretera"
     },
-    "image4": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAiAgAAAAAAJiZiQgAAAAAmZmZzIgAAACZmZmZzMwAAJmZmZmZmQAAmZmZyYjMAACYmcmIAAAAAICICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "ataque"
-    },
     "image6": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAP8AAAAAAAD////wDgAA8P/+7u8HAAD/7/J//v//AP8u/3cncv/wLy5//ydy//AiLn93J1IP8CIuf3cnUg/wLy5//+f+DwD/Lv93d+cPAP/v8n9+5wAA8O/+7n8OAAAA////7gAAAAAA/wAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -39,11 +34,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "zombie8"
     },
-    "image8": {
-        "data": "hwQOABAAAAAAAMD//wwAAAAAv1W7zwwAAPBVVbvbxwwAX1XFf9d9DABfVct3133D8FXVd/93t8vwVbV3d5e5w/BVtXd3l7m78FXVd/+XObMAX1XLd2e5wwBfVcV/z7wMAPBVVbt7xwwAAL9Vu893AAAAwP//DAAA",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "zombie6"
-    },
     "image7": {
         "data": "hwQMABAAAAAA8P////AOAAD//3/n/wcAAP//73f+///w7393f+dr//Dud3d/d2H/8O5+d3dyYQ/w7u53d3JhD/Du7n5/d/4P8O//fn/X7Q8A///vd97tAAD//3/nfw4AAPD////uAAA=",
         "mimeType": "image/x-mkcd-f4",
@@ -70,9 +60,19 @@
         "displayName": "Coin"
     },
     "image3": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AAAAAAG9m9gAAAPD/b2b2AAAA8GZmZvYAAAD/ZmZm9gAA8G9mZmb2AADwZmZmZg8AAPD/ZmZmDwAA8PBmZmb/AAAA8G9mZv8AAAAA//9m9gAAAAAA8P//AAAAAAAA//8AAAAAAAAAAA==",
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAA8P/wAAAAAAD/9v8AAAAA/2/2DwAAAPD/dmYPAAAA/2Z2Z/8AAABvZmZm/wAA8G9mZmb/AAD/ZndmZvYAAP9mZmZn9gAA//9vdmf2APAP8G9m9v8AAAAAb2b2DwAAAAD///8AAAAAAPAPAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "slime"
+    },
+    "image8": {
+        "data": "hwQOABAAAAAREcH//xwRERERv1W7zxwREfFVVbvbxxwRX1XFf9d9HBFfVct3133D8VXVd/93t8vxVbV3d5e5w/FVtXd3l7m78VXVd/+XObMRX1XLd2e5wxFfVcV/z7wcEfFVVbt7xxwREb9Vu893ERERwf//HBER",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "zombie6"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAiAgAAAAAAJiZiQgAAABQmZmZzIgAAESZmZmZzMwAQpmZmZmZdQVQmZmZyYjMAACYmcmIAAAAAICICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ataque"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

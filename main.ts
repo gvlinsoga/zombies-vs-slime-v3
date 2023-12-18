@@ -76,13 +76,13 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . f f 6 f f f f f f . . . . 
         . . . f 6 6 6 f f f . . f . . . 
         . . . f 6 6 6 f f f f f . . . . 
-        . f f f 6 6 6 6 f f f f f . . . 
-        f f 6 6 6 6 6 6 6 6 6 6 f . . . 
-        f 6 f 6 6 6 6 6 6 6 6 6 f f . . 
-        f f 6 6 6 6 6 6 6 6 6 6 6 f f . 
-        f f 6 6 6 6 6 6 f f f f f f . . 
-        . f 6 6 6 6 6 6 6 6 6 6 f . . . 
-        . f f 6 6 6 6 6 6 6 f f f f f . 
+        . f f f 6 6 7 6 f f f f f . . . 
+        f f 6 6 6 6 7 6 6 6 6 6 f . . . 
+        f 6 f 6 6 6 6 6 7 7 6 6 f f . . 
+        f f 6 6 7 6 6 6 6 6 6 6 6 f f . 
+        f f 6 6 7 6 6 6 f f f f f f . . 
+        . f 6 6 6 6 7 6 6 6 6 6 f . . . 
+        . f f 6 6 6 7 6 6 6 f f f f f . 
         . . f f f f f f f f f . f f f f 
         `,img`
         . . . . . . . . . . . . . . . . 
@@ -94,11 +94,11 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . f 6 6 6 f f f . . . . . . 
         . . . f 6 6 6 f f f f f . . . . 
         . f f f 6 6 6 6 f f f f f . . . 
-        f f 6 6 6 6 6 6 6 6 6 6 f f f . 
-        f 6 f 6 6 6 6 6 6 6 6 6 f f . . 
+        f f 6 6 6 6 7 6 6 6 6 6 f f f . 
+        f 6 f 6 6 6 7 7 7 7 7 6 f f . . 
         f f 6 6 6 6 6 6 6 6 6 6 6 f f . 
-        f f 6 6 6 6 6 6 6 f f f f f . . 
-        . f 6 6 6 6 6 6 6 6 6 6 f . . . 
+        f f 6 7 6 6 6 6 6 f f f f f . . 
+        . f 6 7 7 6 6 6 6 6 6 6 f . . . 
         . f f 6 6 6 6 6 6 6 f f f . . f 
         . . f f f f f f f f f . f f f f 
         `,img`
@@ -111,11 +111,11 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . f 6 6 6 f f f . . . . . . 
         . . . f 6 6 6 f f f f f . . . . 
         . f f f 6 6 6 6 f f f f f f . . 
-        f f 6 6 6 6 6 6 6 6 6 6 f . . . 
-        f 6 f 6 6 6 6 6 6 6 6 6 f f f f 
+        f f 6 6 6 6 7 6 6 6 6 6 f . . . 
+        f 6 f 6 6 6 7 7 6 6 6 6 f f f f 
         f f 6 6 6 6 6 6 6 f f f f f . . 
-        f f 6 6 6 6 6 6 f f f f f f . . 
-        . f 6 6 6 6 6 6 6 6 6 6 f f f . 
+        f f 6 7 7 6 6 6 f f f f f f . . 
+        . f 6 6 7 7 6 6 6 6 6 6 f f f . 
         . f f 6 6 6 6 6 6 6 f f f . . . 
         . . f f f f f f f f f . f f f f 
         `],
@@ -139,13 +139,13 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . f f f f f f 6 f f . . . 
         . . . f . . f f f 6 6 6 f . . . 
         . . . . f f f f f 6 6 6 f . . . 
-        . . . f f f f f 6 6 6 6 f f f . 
-        . . . f 6 6 6 6 6 6 6 6 6 6 f f 
-        . . f f 6 6 6 6 6 6 6 6 6 f 6 f 
+        . . . f f f f f 6 6 7 6 f f f . 
+        . . . f 6 6 6 6 6 6 7 6 6 6 f f 
+        . . f f 6 7 7 7 6 6 7 7 6 f 6 f 
         . f f 6 6 6 6 6 6 6 6 6 6 6 f f 
         . . f f f f f f 6 6 6 6 6 6 f f 
-        . . . f 6 6 6 6 6 6 6 6 6 6 f . 
-        . f f f f f 6 6 6 6 6 6 6 f f . 
+        . . . f 6 6 6 6 6 6 7 7 7 6 f . 
+        . f f f f f 6 6 6 6 7 7 6 f f . 
         f f f f . f f f f f f f f f . . 
         `,img`
         . . . . . . . . . . . . . . . . 
@@ -155,14 +155,14 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         . f f f f . . . . f f . . . . . 
         . . . . f f f f f f 6 f f . . . 
         . . . . . . f f f 6 6 6 f . . . 
-        . . . . f f f f f 6 6 6 f . . . 
-        . . . f f f f f 6 6 6 6 f f f . 
-        . f f f 6 6 6 6 6 6 6 6 6 6 f f 
-        . . f f 6 6 6 6 6 6 6 6 6 f 6 f 
+        . . . . f f f f f 6 7 6 f . . . 
+        . . . f f f f f 6 6 7 6 f f f . 
+        . f f f 6 6 6 6 6 6 7 6 6 6 f f 
+        . . f f 6 6 6 6 6 6 6 7 7 f 6 f 
         . f f 6 6 6 6 6 6 6 6 6 6 6 f f 
         . . f f f f f 6 6 6 6 6 6 6 f f 
-        . . . f 6 6 6 6 6 6 6 6 6 6 f . 
-        f . . f f f 6 6 6 6 6 6 6 f f . 
+        . . . f 6 6 6 6 7 7 7 6 6 6 f . 
+        f . . f f f 6 6 7 7 6 6 6 f f . 
         f f f f . f f f f f f f f f . . 
         `,img`
         . . . . . . . . . . . . . . . . 
@@ -173,13 +173,13 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . . f f f f 6 f f . . . 
         . . . . . . f f f 6 6 6 f . . . 
         . . . . f f f f f 6 6 6 f . . . 
-        . . f f f f f f 6 6 6 6 f f f . 
-        . . . f 6 6 6 6 6 6 6 6 6 6 f f 
-        f f f f 6 6 6 6 6 6 6 6 6 f 6 f 
+        . . f f f f f f 7 6 6 7 f f f . 
+        . . . f 6 6 6 7 7 6 6 7 6 6 f f 
+        f f f f 6 6 6 6 6 6 6 7 7 f 6 f 
         . . f f f f f 6 6 6 6 6 6 6 f f 
-        . . f f f f f f 6 6 6 6 6 6 f f 
-        . f f f 6 6 6 6 6 6 6 6 6 6 f . 
-        . . . f f f 6 6 6 6 6 6 6 f f . 
+        . . f f f f f f 7 6 6 6 6 6 f f 
+        . f f f 6 6 6 7 7 6 6 7 7 6 f . 
+        . . . f f f 6 6 6 6 6 7 6 f f . 
         f f f f . f f f f f f f f f . . 
         `],
     500,
@@ -249,7 +249,7 @@ game.onUpdateInterval(5000, function () {
     update += 1000
 })
 game.onUpdateInterval(5000, function () {
-    updatevelocity += 4
+    updatevelocity += 10
 })
 game.onUpdateInterval(12000, function () {
     Vida3 = sprites.create(assets.image`vida2`, SpriteKind.Vida3)

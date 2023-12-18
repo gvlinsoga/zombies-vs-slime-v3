@@ -126,25 +126,6 @@ bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 `;
-            case "image4":
-            case "ataque":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . 8 9 9 9 9 8 . . . . . 
-. . . . 8 9 9 9 9 9 9 8 . . . . 
-. . . . 8 9 9 9 9 9 9 8 . . . . 
-. . . . 8 9 9 9 9 9 9 8 . . . . 
-. . . . 8 9 9 9 9 9 9 8 . . . . 
-. . . . . 8 9 9 9 9 c . . . . . 
-. . . . . 8 c 9 9 9 8 . . . . . 
-. . . . . . c 9 9 c 8 . . . . . 
-. . . . . . 8 c 9 8 . . . . . . 
-. . . . . . 8 c 9 8 . . . . . . 
-. . . . . . . c 9 c . . . . . . 
-. . . . . . . c 9 c . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image6":
             case "Zombie2":return img`
 . . . . . . . . . . . . . . . . 
@@ -267,25 +248,6 @@ f f f c 3 c c c c 3 c f f f
 . . . f f f f f f f . . . . 
 . . . f f f . . . . . . . . 
 `;
-            case "image8":
-            case "zombie6":return img`
-. . . . . . . . . . . . . . 
-. . . . . f f f f . . . . . 
-. . . f f 5 5 5 5 f f . . . 
-. . f 5 5 5 5 5 5 5 5 f . . 
-. f 5 5 5 5 5 5 5 5 5 5 f . 
-c b 5 5 5 d b b d 5 5 5 b c 
-f 5 5 5 b 7 7 7 7 b 5 5 5 f 
-f 5 5 c c 7 7 7 7 c c 5 5 f 
-f b b f 7 f 7 7 f 7 f b b f 
-f b b 7 7 f 7 7 f 7 7 b b f 
-c f b 7 7 7 7 7 7 7 f b f c 
-. c d d d 7 9 9 9 6 c 7 c . 
-. c 7 d d 7 9 9 9 9 c 7 7 . 
-. . c 7 7 b b b 3 b b c 7 . 
-. . c c 3 b 3 b 3 3 c c . . 
-. . . . c c c b b c . . . . 
-`;
             case "image7":
             case "zombie5":return img`
 . . . . . . . . . . . . 
@@ -378,19 +340,57 @@ c d d 1 1 d d c
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . f . . . . 
+. . . . . . . . f f f f . . . . 
 . . . . . . . f f f f . . . . . 
-. . . . . . f f 6 f . . . . . . 
-. . . . f f f 6 6 f f f . . . . 
-. . . . f 6 6 6 6 6 6 f f . . . 
-. . . . f 6 6 6 6 6 6 6 f . . . 
-. . f f f 6 6 6 6 6 6 6 f . . . 
-. . f 6 6 6 6 6 6 6 6 6 f f . . 
-. . f 6 6 6 6 6 6 6 6 6 6 f f . 
-. . f 6 6 6 6 6 6 6 6 6 6 f f . 
-. . f 6 6 6 6 6 f f f f 6 f f . 
-. . f f f f f f . . f f f f f . 
+. . . . . f f f 6 6 f . . . . . 
+. . . . f f 6 6 6 6 f f . . . . 
+. . . f f 6 6 6 7 6 f f f f . . 
+. . . f f 6 6 6 7 6 6 6 6 f f . 
+. . f f 6 6 6 6 6 6 6 6 6 f f . 
+. f f 6 7 7 6 6 6 6 7 6 6 f . . 
+. f 6 6 6 7 6 6 6 7 7 6 6 f . . 
+. f f f 6 6 6 6 6 6 6 f f f . . 
+. . f f f f f f 6 6 6 f f . . . 
+. f f . . f f f f f f f . . . . 
+`;
+            case "image8":
+            case "zombie6":return img`
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 f f f f 1 1 1 1 1 
+1 1 1 f f 5 5 5 5 f f 1 1 1 
+1 1 f 5 5 5 5 5 5 5 5 f 1 1 
+1 f 5 5 5 5 5 5 5 5 5 5 f 1 
+c b 5 5 5 d b b d 5 5 5 b c 
+f 5 5 5 b 7 7 7 7 b 5 5 5 f 
+f 5 5 c c 7 7 7 7 c c 5 5 f 
+f b b f 7 f 7 7 f 7 f b b f 
+f b b 7 7 f 7 7 f 7 7 b b f 
+c f b 7 7 7 7 7 7 7 f b f c 
+1 c d d d 7 9 9 9 6 c 7 c 1 
+1 c 7 d d 7 9 9 9 9 c 7 7 1 
+1 1 c 7 7 b b b 3 b b c 7 1 
+1 1 c c 3 b 3 b 3 3 c c 1 1 
+1 1 1 1 c c c b b c 1 1 1 1 
+`;
+            case "image4":
+            case "ataque":return img`
+. . . . . . . 4 2 . . . . . . . 
+. . . . . . 5 4 4 5 . . . . . . 
+. . . . . 8 9 9 9 9 8 . . . . . 
+. . . . 8 9 9 9 9 9 9 8 . . . . 
+. . . . 8 9 9 9 9 9 9 8 . . . . 
+. . . . 8 9 9 9 9 9 9 8 . . . . 
+. . . . 8 9 9 9 9 9 9 8 . . . . 
+. . . . . 8 9 9 9 9 c . . . . . 
+. . . . . 8 c 9 9 9 8 . . . . . 
+. . . . . . c 9 9 c 8 . . . . . 
+. . . . . . 8 c 9 8 . . . . . . 
+. . . . . . 8 c 9 8 . . . . . . 
+. . . . . . . c 5 c . . . . . . 
+. . . . . . . c 7 c . . . . . . 
+. . . . . . . . 5 . . . . . . . 
+. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
