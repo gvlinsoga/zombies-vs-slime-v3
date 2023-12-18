@@ -244,7 +244,7 @@ Slime.setPosition(80, 110)
 info.setLife(5)
 info.setScore(0)
 controller.moveSprite(Slime, 200, 200)
-game.showLongText("Pulsa A para ayudar a Slime y reventar \"zombies\"", DialogLayout.Center)
+game.showLongText("Pulsa A para ayudar a Slime y reventar \"zombies\"!", DialogLayout.Center)
 game.onUpdateInterval(5000, function () {
     update += 1000
 })
