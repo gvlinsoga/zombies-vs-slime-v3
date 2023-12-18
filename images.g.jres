@@ -4,11 +4,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Carretera"
     },
-    "image3": {
-        "data": "hwQQABAAAAAAALC7uwsAAACwm5lVtQsAALvZPTNdvQCwm92ZPTPVC7DZmZmZM1MLm5mZmZk507WbmZmZmdkztZuZmZmZmTO1m5mZmZmZM7WbmRGRmZkztZuZEZGZmVO1sJkRkZnZXQuwm5kZmd21CwC7mZnZXbsAALCbmZm5CwAAALC7uwsAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "slime"
-    },
     "image4": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAiAgAAAAAAJiZiQgAAAAAmZmZzIgAAACZmZmZzMwAAJmZmZmZmQAAmZmZyYjMAACYmcmIAAAAAICICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -73,6 +68,11 @@
         "data": "hwQIAAgAAAAAu8wAsFXVD1s90/1bUxX9W1MV/Vsd0f2wVd0PALvMAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Coin"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AAAAAAG9m9gAAAPD/b2b2AAAA8GZmZvYAAAD/ZmZm9gAA8G9mZmb2AADwZmZmZg8AAPD/ZmZmDwAA8PBmZmb/AAAA8G9mZv8AAAAA//9m9gAAAAAA8P//AAAAAAAA//8AAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "slime"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

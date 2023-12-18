@@ -1,4 +1,4 @@
-// Código generado automáticamente. No editar.
+// Auto-generated code. Do not edit.
 namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
@@ -125,25 +125,6 @@ bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-`;
-            case "image3":
-            case "slime":return img`
-. . . . . b b b b b b . . . . . 
-. . . b b 9 9 9 9 9 9 b b . . . 
-. . b b 9 9 9 9 9 9 9 9 b b . . 
-. b b 9 d 9 9 9 9 9 9 9 9 b b . 
-. b 9 d 9 9 9 9 9 1 1 1 9 9 b . 
-b 9 d d 9 9 9 9 9 1 1 1 9 9 9 b 
-b 9 d 9 9 9 9 9 9 1 1 1 9 9 9 b 
-b 9 3 9 9 9 9 9 9 9 9 9 1 9 9 b 
-b 5 3 d 9 9 9 9 9 9 9 9 9 9 9 b 
-b 5 3 3 9 9 9 9 9 9 9 9 9 d 9 b 
-b 5 d 3 3 9 9 9 9 9 9 9 d d 9 b 
-. b 5 3 3 3 d 9 9 9 9 d d 5 b . 
-. b d 5 3 3 3 3 3 3 3 d 5 b b . 
-. . b d 5 d 3 3 3 3 5 5 b b . . 
-. . . b b 5 5 5 5 5 5 b b . . . 
-. . . . . b b b b b b . . . . . 
 `;
             case "image4":
             case "ataque":return img`
@@ -392,6 +373,25 @@ c d d 1 1 d d c
 . f d d d d f . 
 . . f f f f . . 
 `;
+            case "image3":
+            case "slime":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . f f f f . . . . . 
+. . . . . . f f 6 f . . . . . . 
+. . . . f f f 6 6 f f f . . . . 
+. . . . f 6 6 6 6 6 6 f f . . . 
+. . . . f 6 6 6 6 6 6 6 f . . . 
+. . f f f 6 6 6 6 6 6 6 f . . . 
+. . f 6 6 6 6 6 6 6 6 6 f f . . 
+. . f 6 6 6 6 6 6 6 6 6 6 f f . 
+. . f 6 6 6 6 6 6 6 6 6 6 f f . 
+. . f 6 6 6 6 6 f f f f 6 f f . 
+. . f f f f f f . . f f f f f . 
+`;
         }
         return null;
     })
@@ -411,4 +411,4 @@ c d d 1 1 d d c
     })
 
 }
-// Código generado automáticamente. No editar.
+// Auto-generated code. Do not edit.
